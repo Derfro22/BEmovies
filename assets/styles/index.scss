@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+@import "./settings";
+@import "./layout/body";
+@import "./layout/navbar";
+@import "./layout/search";
+@import "./layout/login";
+@import "./layout/footerbar";
+@import "./layout/popupContent"

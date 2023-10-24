@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEmovies</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
+</head>
+
+<body>
+
+
+    <!--      Nav      -->
+
+    <header>
+        <div class="home">
+            <div class="logo">
+                <img src="./assets/img/Logo.svg" alt="Logo of BEmovies">
+            </div>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="#">SEARCH</a></li>
+                <li><a href="#">LATEST</a></li>
+                <li><a href="#">GENRES</a></li>
+                <li><a href="#">REGISTER</a></li>
+                <li><a href="#">SIGNIN</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <!--      Search And Result      -->
+
+    <div class="search">
+        <form class="searchform">
+            <input type="text" id="searchTitle" placeholder="Title">
+            <button type="submit"><img src="./assets/img/ArrowSubmit.svg" alt="arrow for run search"></button>
+        </form>
+
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./assets/img/Rectangle 1.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/Rectangle 2.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/Rectangle 3.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/Rectangle 4.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/Rectangle 1.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/Rectangle 2.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/Rectangle 3.svg" alt=""></div>
+                    <div class="swiper-slide"><img src="./assets/img/Rectangle 4.svg" alt=""></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+    <!--      Log in and Sign in Modal       -->
+
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <span class="close" id="closeModal"><img src="./assets/img/close.svg" alt="close cross"></span>
+
+            <div class="slider"></div>
+            <div class="btn">
+                <button class="signup">Signup</button>
+                <button class="login">Login</button>
+            </div>
+    
+            <div class="form-section">
+    
+                <div class="signup-box">
+                    <input type="text" class="name element" placeholder="Enter your name">
+                    <input type="email" class="email element" placeholder="youremail@email.com">
+                    <input type="password" class="password element" placeholder="password">
+                    <input type="password" class="password element" placeholder="Confirm password"><br>
+                    <button class="signbtn">Signup</button>
+                </div>
+
+                <div class="container"></div>
+                <div class="login-box">
+                    <input type="username" class="username element" placeholder="Username">
+                    <input type="password" class="password element" placeholder="Password">
+                    <label class="remember" for="rememberMe">
+                        <input type="checkbox" class="rememberme" id="rememberMe">Remember me
+                    </label>
+                    <button class="logbtn">Login</button>
+                    <p class="forget">I forgot my password</p>
+                    <p>Not a member yer ? <a href="#">Sign up</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--      Log in and Sign in Modal       -->
+
+    <div class="popup" id="myPopup">
+        <div class="popup-container">
+            <span class="close" id="closepopup"><img src="./assets/img/close.svg" alt="close cross"></span>
+            <div class="popup-content">
+                <img id="popupImage" src="./assets/img/Rectangle 1.svg" alt="">
+                <div class="popupInfo">
+                    <h2>Title</h2>
+                    <p class="year">Year</p>
+                    <p class="note"><img src="./assets/img/Star.svg" alt="star" srcset="">Note</p>
+                    <p class="genre">Genre</p>
+                    <p class="description">Description
+                        Squirty cheese cheese and wine roquefort. Say cheese fondue swiss bavarian bergkase everyone loves queso. When the cheese comes out happy red leicester bocconcini when the cheese comes out everybody's happy croque monsieur airedale rubber cheese cheese and wine. Babybel the big cheese.
+                    </p>
+                    <p class="cast">CAST:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!--      Footer      -->
+
+    <footer>
+        <div class="bottom">
+            <div class="logo">
+                <img src="./assets/img/Logo.svg" alt="Logo of BEmovies">
+            </div>
+        </div>
+        <div class="footbar">
+            <ul>
+                <li><a href="#">SEARCH</a></li>
+                <li><a href="#">LATEST</a></li>
+                <li><a href="#">GENRES</a></li>
+                <li><a href="#">REGISTER</a></li>
+                <li><a href="#">SIGNIN</a></li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <span>@2023 - All rights reserved</span>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
