@@ -5,7 +5,6 @@
 
     .searchform {
         grid-column: 2/-2;
-        margin-bottom: 90px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -40,65 +39,10 @@
             font: inherit;
             cursor: pointer;
             outline: inherit;
-            img{
+
+            img {
                 padding-top: 4px;
             }
         }
     }
-    .container{
-        grid-column: 2/-2;
-        .result {
-            margin-left: 43px;
-            color: #FFF;
-            font-family: Inter;
-            font-size: 16px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: normal;
-            margin-bottom: 10px;
-        }
-        .swiper{
-            margin-left: 43px;
-            max-width: 1000px;
-            overflow: hidden;
-            .swiper-wrapper{
-                display: flex;
-                .swiper-slide{
-                    text-align: center;
-                    font-size: 18px;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    img{
-                        display: block;
-                        height: 100%;
-                        object-fit: cover;
-                    }
-                }
-            }
-
-        }
-        .arrow-swiper {
-
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: relative;
-        
-            .button-next{
-                position: absolute;
-                right: 0;
-                cursor: pointer;
-                top: -175px;
-            }
-            .button-prev{
-                position: absolute;
-                left: 0;
-                cursor: pointer;
-                top: -175px;
-            }
-        }
-    }
 }
-
-

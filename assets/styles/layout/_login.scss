@@ -32,7 +32,6 @@
             }
         }
 
-        .slider {}
 
         .btn {
             padding-top: 40px;
@@ -81,8 +80,8 @@
             justify-content: center;
 
             .signup-box {
-                display: none;
-                // display: flex;
+                // display: none;
+                display: flex;
                 flex-direction: column;
                 align-content: center;
                 margin-top: 54px;
@@ -181,9 +180,9 @@
 
             .login-box {
                 display: none;
-                display: flex;
+                // display: flex;
                 flex-direction: column;
-                align-content: center;
+                // align-content: center;
                 margin-top: 54px;
                 max-width: 288px;
 
@@ -246,9 +245,6 @@
                     margin-bottom: 46px;
                     color: #FFF;
                     // align-self: flex-start;
-
-                    .rememberme {}
-
                 }
 
 
