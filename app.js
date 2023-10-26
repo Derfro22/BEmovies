@@ -1,3 +1,5 @@
+//SWIPER
+
 const swiper = new Swiper(".mySwiper", {
   slidesPerView: 4,
   spaceBetween: 19,
@@ -27,3 +29,14 @@ const swiper2 = new Swiper(".mySwiper2", {
       clickable: true,
     },
 });
+
+// API
+// DECLARATIONS
+
+  const apiKey = 'apibf3e3d2eedb7630af8db21d12553c7dc'
+const searchResult = document.querySelector('.all-content')
+// ACTIONS
+
+// 1. Initialize the result of the search
+
+searchResult.innerHTML=""
