@@ -141,10 +141,6 @@ header .navbar ul li a {
   line-height: normal;
   margin-bottom: 10px;
 }
-.all-content .result .result-movies .swiper .swiper-wrapper .swiper-slide {
-  width: 234px;
-  height: 350px;
-}
 .all-content .result .result-movies .swiper .swiper-wrapper .swiper-slide img {
   width: 100%;
   height: 100%;
@@ -200,10 +196,6 @@ header .navbar ul li a {
   font-weight: 400;
   line-height: normal;
   margin-bottom: 10px;
-}
-.all-content .result .result-movies .swiper .swiper-wrapper .swiper-slide {
-  width: 234px;
-  height: 350px;
 }
 .all-content .result .result-movies .swiper .swiper-wrapper .swiper-slide img {
   width: 100%;
@@ -317,14 +309,7 @@ header .navbar ul li a {
   line-height: normal;
   margin-bottom: 10px;
 }
-.result-genre .result .result-movies .swiper .swiper-wrapper .swiper-slide:hover .overview {
-  -webkit-transform: translateY(0%);
-      -ms-transform: translateY(0%);
-          transform: translateY(0%);
-}
 .result-genre .result .result-movies .swiper .swiper-wrapper .swiper-slide {
-  width: 234px;
-  height: 350px;
   position: relative;
 }
 .result-genre .result .result-movies .swiper .swiper-wrapper .swiper-slide img {
@@ -333,72 +318,6 @@ header .navbar ul li a {
   -o-object-fit: cover;
      object-fit: cover;
   display: block;
-}
-.result-genre .result .result-movies .swiper .swiper-wrapper .swiper-slide .overview {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: rgba(0, 0, 0, 0.9);
-  -webkit-transform: translateY(101%);
-      -ms-transform: translateY(101%);
-          transform: translateY(101%);
-}
-.result-genre .result .result-movies .swiper .swiper-wrapper .swiper-slide .overview .overTitle {
-  color: #FFF;
-  text-align: center;
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-top: 75px;
-  margin-bottom: 23px;
-}
-.result-genre .result .result-movies .swiper .swiper-wrapper .swiper-slide .overview .overDate {
-  color: #B0B0B0;
-  text-align: center;
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  margin-bottom: 23px;
-}
-.result-genre .result .result-movies .swiper .swiper-wrapper .swiper-slide .overview .overGenre {
-  color: #FFF;
-  text-align: center;
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-bottom: 23px;
-}
-.result-genre .result .result-movies .swiper .swiper-wrapper .swiper-slide .overview .star {
-  width: 35px;
-  height: 35px;
-  margin-bottom: 8px;
-}
-.result-genre .result .result-movies .swiper .swiper-wrapper .swiper-slide .overview .overNote {
-  color: #C00;
-  text-align: center;
-  font-family: Inter;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
 }
 .result-genre .arrow-swiper {
   grid-column: 2/-2;
@@ -421,6 +340,79 @@ header .navbar ul li a {
   right: 0;
   cursor: pointer;
   top: -175px;
+}
+
+.swiper-slide:hover .overview {
+  -webkit-transform: translateY(0%);
+      -ms-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.overview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(0, 0, 0, 0.9);
+  -webkit-transform: translateY(101%);
+      -ms-transform: translateY(101%);
+          transform: translateY(101%);
+}
+.overview .overTitle {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 75px;
+  margin-bottom: 23px;
+}
+.overview .overDate {
+  color: #B0B0B0;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 23px;
+}
+.overview .overGenre {
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 23px;
+}
+.overview .star {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 8px;
+}
+.overview .overNote {
+  color: #C00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .modal {
