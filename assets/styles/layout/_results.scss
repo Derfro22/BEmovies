@@ -1,5 +1,11 @@
-.all-content{
+// .search-result{
+//   // display: none;
+// }
+
+.all-content1{
+  
   @include container;
+  // display: none;
   .result {
     grid-column: 2/-2;
     margin-top: 60px;
