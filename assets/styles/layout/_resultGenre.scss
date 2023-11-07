@@ -12,7 +12,7 @@
       max-width: 1000px;
 
 
-      .result-search {
+      .result-filter {
         color: #ffffff;
         font-family: Inter;
         font-size: 16px;
@@ -30,6 +30,7 @@
             // width: 234px;
             // height: 350px;
             position: relative;
+            cursor: pointer;
 
             img {
               width: 100%;
@@ -115,6 +116,8 @@
     font-weight: 500;
     line-height: normal;
     margin-bottom: 23px;
+    max-width: 200px;
+    overflow-wrap: normal;
   }
 
   .star {

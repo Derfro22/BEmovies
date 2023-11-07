@@ -80,8 +80,8 @@
             justify-content: center;
 
             .signup-box {
-                // display: none;
-                display: flex;
+                display: none;
+                // display: flex;
                 flex-direction: column;
                 align-content: center;
                 margin-top: 54px;
@@ -179,8 +179,8 @@
             }
 
             .login-box {
-                display: none;
-                // display: flex;
+                // display: none;
+                display: flex;
                 flex-direction: column;
                 // align-content: center;
                 margin-top: 54px;

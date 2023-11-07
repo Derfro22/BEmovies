@@ -13,7 +13,7 @@
             font-weight: 400;
             line-height: normal;
         }
-
+        
         .genre-slider {
             grid-column: 2/-2;
             display: flex;
@@ -50,4 +50,7 @@
             }
         }
     }
+}
+.swiper-slide{
+    cursor: pointer;
 }
