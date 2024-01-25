@@ -18,9 +18,9 @@ Welcome to BeMovies, your go-to platform for exploring the latest movie releases
 
 ## Preview
 
-[Insert Screenshots or Gifs of Your Application]
+![BeMovies Preview](/path/to/your/screenshot.png)
 
-## Acknowledgments
+## Sources
 
 - Figma Design: [Link to Figma Design](https://www.figma.com/file/jT6U3cABdKEUDRVTUJSbQd/BeMovies?type=design&node-id=0-1&mode=design)
 - TMDB API: [Link to TMDB API Documentation](https://developer.themoviedb.org/docs/getting-started)
