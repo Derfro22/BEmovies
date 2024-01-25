@@ -18,7 +18,7 @@ Welcome to BeMovies, your go-to platform for exploring the latest movie releases
 
 ## Preview
 
-![BeMovies Preview](/path/to/your/screenshot.png)
+![BeMovies Preview](/assets/img/screenshot.png)
 
 ## Sources
 
