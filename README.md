@@ -21,7 +21,7 @@ Welcome to BeMovies, your go-to platform for exploring the latest movie releases
 
 ## Acknowledgments
 
-- Figma Design: [Link to Figma Design]
+- Figma Design: [[Link to Figma Design](https://www.figma.com/file/jT6U3cABdKEUDRVTUJSbQd/BeMovies?type=design&node-id=0-1&mode=design)https://www.figma.com/file/jT6U3cABdKEUDRVTUJSbQd/BeMovies?type=design&node-id=0-1&mode=design]
 - TMDB API: [Link to TMDB API Documentation]
 
 Enjoy exploring movies with BeMovies! 🍿
