@@ -19,6 +19,7 @@ Welcome to BeMovies, your go-to platform for exploring the latest movie releases
 ## Preview
 
 ![BeMovies Preview](/assets/img/screenshot.png)
+<img src="/assets/img/screenshot.png" width="400" alt="BeMovies Preview">
 
 ## Sources
 
